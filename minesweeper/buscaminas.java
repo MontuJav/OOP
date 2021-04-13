@@ -61,9 +61,7 @@ class buscaminas extends JFrame implements ActionListener {
         
         //	Comenzar Tiempo
         tp= new Tiempo(this);
-        tp.start();
-        
-	    setTitle("Buscaminas v 1.0                    http://todojava.awardspace.com");	
+        tp.start();	
 	    setResizable(false);
 	    setSize(600,600);
 		setVisible(true);
